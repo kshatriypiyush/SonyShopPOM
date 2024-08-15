@@ -178,9 +178,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8edce783-e81e-4d67-829c-afe2eb77eaf4, findElement {using=xpath, value=//div[@class=&apos;account-message message--error&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:debuggerAddress: 127.0.0.1:13554, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6412, moz:profile: C:\Users\kshat\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:13554/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8edce783-e81e-4d67-829c-afe2eb77eaf4
+Command: [609781e9-c269-4f30-95e6-e19e3de626b3, findElement {value=//div[@class=&apos;account-message message--error&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:debuggerAddress: 127.0.0.1:8040, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19016, moz:profile: C:\Users\kshat\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:8040/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 609781e9-c269-4f30-95e6-e19e3de626b3
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -195,7 +195,7 @@ Session ID: 8edce783-e81e-4d67-829c-afe2eb77eaf4
 	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
 	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
 	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
-	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$6EqwPkyV.findElement(Unknown Source)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$rbuZ3d8a.findElement(Unknown Source)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy36.getText(Unknown Source)
@@ -333,35 +333,35 @@ data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginTestWrongCredentials')
 data.setCell(0, 2, 'com.sony.qa.testcases.LoginPageTest')
-data.setCell(0, 3, 26603);
+data.setCell(0, 3, 26561);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'numberOfSuggestionInSearchForHeadset')
 data.setCell(1, 2, 'com.sony.qa.testcases.HomePageTest')
-data.setCell(1, 3, 2303);
+data.setCell(1, 3, 2404);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyTotalElementInHeaderMenu')
+data.setCell(2, 1, 'verifySpecialOfferDetails')
 data.setCell(2, 2, 'com.sony.qa.testcases.HomePageTest')
-data.setCell(2, 3, 185);
+data.setCell(2, 3, 287);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifySpecialOfferDetails')
+data.setCell(3, 1, 'totalNumberOfPaymentMethodAvailable')
 data.setCell(3, 2, 'com.sony.qa.testcases.HomePageTest')
-data.setCell(3, 3, 102);
+data.setCell(3, 3, 200);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'totalNumberOfPaymentMethodAvailable')
+data.setCell(4, 1, 'verifyTotalElementInHeaderMenu')
 data.setCell(4, 2, 'com.sony.qa.testcases.HomePageTest')
-data.setCell(4, 3, 63);
+data.setCell(4, 3, 184);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'isTheirAnySpecialOfferGoingOn')
 data.setCell(5, 2, 'com.sony.qa.testcases.HomePageTest')
-data.setCell(5, 3, 54);
+data.setCell(5, 3, 65);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'homePageTitleTest')
 data.setCell(6, 2, 'com.sony.qa.testcases.HomePageTest')
-data.setCell(6, 3, 33);
+data.setCell(6, 3, 23);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'loginPageTitleTest')
 data.setCell(7, 2, 'com.sony.qa.testcases.LoginPageTest')
-data.setCell(7, 3, 10);
+data.setCell(7, 3, 13);
 window.suiteTableData['Sony_Login_and_Home_Page_Test_Suite']= { tableData: data, tableDiv: 'times-div-Sony_Login_and_Home_Page_Test_Suite'}
 return data;
 }
@@ -399,100 +399,100 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">homePageTitleTest</span>
-                <span class="method-start">7688 ms</span>
+                <span class="method-start">8006 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7728 ms</span>
+                <span class="method-start">8033 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">9033 ms</span>
+                <span class="method-start">9178 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyTotalElementInHeaderMenu</span>
-                <span class="method-start">14532 ms</span>
+                <span class="method-start">15404 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">14720 ms</span>
+                <span class="method-start">15589 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">15964 ms</span>
+                <span class="method-start">16698 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">numberOfSuggestionInSearchForHeadset</span>
-                <span class="method-start">21485 ms</span>
+                <span class="method-start">22034 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">23789 ms</span>
+                <span class="method-start">24439 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">24957 ms</span>
+                <span class="method-start">25462 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">totalNumberOfPaymentMethodAvailable</span>
-                <span class="method-start">37317 ms</span>
+                <span class="method-start">31191 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">37381 ms</span>
+                <span class="method-start">31394 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">38696 ms</span>
+                <span class="method-start">33105 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">isTheirAnySpecialOfferGoingOn</span>
-                <span class="method-start">46216 ms</span>
+                <span class="method-start">38916 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">46271 ms</span>
+                <span class="method-start">38981 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">47457 ms</span>
+                <span class="method-start">40235 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifySpecialOfferDetails</span>
-                <span class="method-start">53215 ms</span>
+                <span class="method-start">46120 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">53320 ms</span>
+                <span class="method-start">46409 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.sony.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">54633 ms</span>
+                <span class="method-start">47692 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginPageTitleTest</span>
-                <span class="method-start">65449 ms</span>
+                <span class="method-start">58614 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">65461 ms</span>
+                <span class="method-start">58631 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">66833 ms</span>
+                <span class="method-start">59958 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginTestWrongCredentials</span>
-                <span class="method-start">77393 ms</span>
+                <span class="method-start">70821 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">103999 ms</span>
+                <span class="method-start">97384 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

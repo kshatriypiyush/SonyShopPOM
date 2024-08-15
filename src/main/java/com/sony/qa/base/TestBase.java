@@ -22,8 +22,8 @@ public class TestBase {
 	public static Properties prop;
 	static String currentDir = System.getProperty("user.dir");
 	static WebEventListener listener;
+	
 	public TestBase() {
-
 		try {
 			prop = new Properties();
 			FileInputStream ip = new FileInputStream( currentDir + "\\src\\main\\java\\com\\sony\\qa\\config\\config.properties");

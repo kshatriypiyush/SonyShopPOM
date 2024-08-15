@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverListener;
@@ -12,19 +13,22 @@ import com.sony.qa.base.TestBase;
 
 public class WebEventListener extends TestBase implements WebDriverListener {
 
+
+	Logger log = Logger.getLogger(WebEventListener.class);
+	
 	@Override
 	public void beforeGet(WebDriver driver, String url) {
-		System.out.println("Navigated to:'" + url + "'");
+		log.debug("Navigated to:'" + url + "'");
 	}
 
 	@Override
 	public void afterGetText(WebElement element, String result) {
-		System.out.println("Element " + element + " has text " + "'" + result + "'");
+		log.debug("Element " + element + " has text " + "'" + result + "'");
 	}
 
 	@Override
 	public void beforeAnyWebElementCall(WebElement element, Method method, Object[] args) {
-		System.out.println(
+		log.debug(
 				String.format("About to call a method %s in element %s with parameters %s", method, element, args));
 		// logger.log("About to call a method %s in element %s with parameters %s",
 		// method, element, args);
@@ -32,14 +36,14 @@ public class WebEventListener extends TestBase implements WebDriverListener {
 
 	@Override
 	public void afterAnyWebElementCall(WebElement element, Method method, Object[] args, Object result) {
-		System.out.println(
+		log.debug(
 				String.format("Method %s called in element %s with parameters %s returned %s", method, element, args, result));
 		//logger.log("Method %s called in element %s with parameters %s returned %s", method, element, args, result);
 	}
 
 	@Override
 	public void onError(Object target, Method method, Object[] args, InvocationTargetException e) {
-		System.out.println("Exception occured: " + e);
+		log.debug("Exception occured: " + e);
 		try {
 			TestUtil.takeScreenshotAtEndOfTest();
 		} catch (IOException e1) {
