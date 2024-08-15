@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sony Login and Home Page Test Suite]">
+  <listeners>
+    <listener class-name="com.sony.qa.extentreportlistener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Sony Test Cases(failed)">
+    <classes>
+      <class name="com.sony.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginTestWrongCredentials"/>
+        </methods>
+      </class> <!-- com.sony.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Sony Test Cases(failed) -->
+</suite> <!-- Failed suite [Sony Login and Home Page Test Suite] -->

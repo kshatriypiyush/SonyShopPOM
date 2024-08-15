@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Sony Login and Home Page Test Suite">
+	
+	<listeners>
+		<listener class-name="com.sony.qa.extentreportlistener.ExtentReporterNG"/>
+	</listeners>
+	
+  <test name="Sony Test Cases">
+    <classes>
+      <class name="com.sony.qa.testcases.HomePageTest"/>
+      <class name="com.sony.qa.testcases.LoginPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

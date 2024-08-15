@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-14T21:49:06 MDT" name="Surefire suite" finished-at="2024-08-14T21:50:41 MDT" duration-ms="94918">
+    <groups>
+    </groups>
+    <test started-at="2024-08-14T21:49:06 MDT" name="Surefire test" finished-at="2024-08-14T21:50:41 MDT" duration-ms="94918">
+      <class name="com.sony.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sony.qa.testcases.HomePageTest@69930714]" started-at="2024-08-14T21:49:06 MDT" name="setUp" finished-at="2024-08-14T21:49:15 MDT" duration-ms="9306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePageTitleTest()[pri:1, instance:com.sony.qa.testcases.HomePageTest@69930714]" started-at="2024-08-14T21:49:15 MDT" name="homePageTitleTest" finished-at="2024-08-14T21:49:15 MDT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sony.qa.testcases.HomePageTest@69930714]" started-at="2024-08-14T21:49:15 MDT" name="tearDown" finished-at="2024-08-14T21:49:16 MDT" duration-ms="1200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sony.qa.testcases.HomePageTest@69930714]" started-at="2024-08-14T21:49:16 MDT" name="setUp" finished-at="2024-08-14T21:49:24 MDT" duration-ms="8011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTotalElementInHeaderMenu()[pri:2, instance:com.sony.qa.testcases.HomePageTest@69930714]" started-at="2024-08-14T21:49:24 MDT" name="verifyTotalElementInHeaderMenu" finished-at="2024-08-14T21:49:25 MDT" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalElementInHeaderMenu -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sony.qa.testcases.HomePageTest@69930714]" started-at="2024-08-14T21:49:25 MDT" name="tearDown" finished-at="2024-08-14T21:49:26 MDT" duration-ms="1229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sony.qa.testcases.HomePageTest@69930714]" started-at="2024-08-14T21:49:26 MDT" name="setUp" finished-at="2024-08-14T21:49:33 MDT" duration-ms="7047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="numberOfSuggestionInSearchForHeadset()[pri:3, instance:com.sony.qa.testcases.HomePageTest@69930714]" started-at="2024-08-14T21:49:33 MDT" name="numberOfSuggestionInSearchForHeadset" finished-at="2024-08-14T21:49:35 MDT" duration-ms="2465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberOfSuggestionInSearchForHeadset -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sony.qa.testcases.HomePageTest@69930714]" started-at="2024-08-14T21:49:35 MDT" name="tearDown" finished-at="2024-08-14T21:49:37 MDT" duration-ms="1135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sony.qa.testcases.HomePageTest@69930714]" started-at="2024-08-14T21:49:37 MDT" name="setUp" finished-at="2024-08-14T21:49:43 MDT" duration-ms="6804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="totalNumberOfPaymentMethodAvailable()[pri:4, instance:com.sony.qa.testcases.HomePageTest@69930714]" started-at="2024-08-14T21:49:43 MDT" name="totalNumberOfPaymentMethodAvailable" finished-at="2024-08-14T21:49:44 MDT" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalNumberOfPaymentMethodAvailable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sony.qa.testcases.HomePageTest@69930714]" started-at="2024-08-14T21:49:44 MDT" name="tearDown" finished-at="2024-08-14T21:49:45 MDT" duration-ms="1520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sony.qa.testcases.HomePageTest@69930714]" started-at="2024-08-14T21:49:45 MDT" name="setUp" finished-at="2024-08-14T21:49:52 MDT" duration-ms="6668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="isTheirAnySpecialOfferGoingOn()[pri:5, instance:com.sony.qa.testcases.HomePageTest@69930714]" started-at="2024-08-14T21:49:52 MDT" name="isTheirAnySpecialOfferGoingOn" finished-at="2024-08-14T21:49:52 MDT" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTheirAnySpecialOfferGoingOn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sony.qa.testcases.HomePageTest@69930714]" started-at="2024-08-14T21:49:52 MDT" name="tearDown" finished-at="2024-08-14T21:49:53 MDT" duration-ms="1514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sony.qa.testcases.HomePageTest@69930714]" started-at="2024-08-14T21:49:53 MDT" name="setUp" finished-at="2024-08-14T21:50:00 MDT" duration-ms="6508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySpecialOfferDetails()[pri:6, instance:com.sony.qa.testcases.HomePageTest@69930714]" started-at="2024-08-14T21:50:00 MDT" name="verifySpecialOfferDetails" finished-at="2024-08-14T21:50:00 MDT" depends-on-methods="com.sony.qa.testcases.HomePageTest.isTheirAnySpecialOfferGoingOn" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySpecialOfferDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sony.qa.testcases.HomePageTest@69930714]" started-at="2024-08-14T21:50:00 MDT" name="tearDown" finished-at="2024-08-14T21:50:01 MDT" duration-ms="1375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sony.qa.testcases.HomePageTest -->
+      <class name="com.sony.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sony.qa.testcases.LoginPageTest@3d121db3]" started-at="2024-08-14T21:50:01 MDT" name="setUp" finished-at="2024-08-14T21:50:13 MDT" duration-ms="12115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.sony.qa.testcases.LoginPageTest@3d121db3]" started-at="2024-08-14T21:50:13 MDT" name="loginPageTitleTest" finished-at="2024-08-14T21:50:13 MDT" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sony.qa.testcases.LoginPageTest@3d121db3]" started-at="2024-08-14T21:50:13 MDT" name="tearDown" finished-at="2024-08-14T21:50:15 MDT" duration-ms="1422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sony.qa.testcases.LoginPageTest@3d121db3]" started-at="2024-08-14T21:50:15 MDT" name="setUp" finished-at="2024-08-14T21:50:26 MDT" duration-ms="11174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTestWrongCredentials()[pri:2, instance:com.sony.qa.testcases.LoginPageTest@3d121db3]" started-at="2024-08-14T21:50:26 MDT" name="loginTestWrongCredentials" finished-at="2024-08-14T21:50:40 MDT" duration-ms="13885" status="FAIL">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[Could not initialize class java.util.logging.LogRecord]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: Could not initialize class java.util.logging.LogRecord
+at java.logging/java.util.logging.Logger.log(Logger.java:1116)
+at org.openqa.selenium.support.events.EventFiringDecorator.lambda$onError$2(EventFiringDecorator.java:207)
+at java.base/java.util.Arrays$ArrayList.forEach(Arrays.java:4204)
+at org.openqa.selenium.support.events.EventFiringDecorator.onError(EventFiringDecorator.java:202)
+at org.openqa.selenium.support.decorators.DefaultDecorated.onError(DefaultDecorated.java:59)
+at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:341)
+at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$1flYP3pk.findElement(Unknown Source)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy33.getText(Unknown Source)
+at com.sony.qa.pages.LoginPage.readInvalidLoginErr(LoginPage.java:55)
+at com.sony.qa.testcases.LoginPageTest.loginTestWrongCredentials(LoginPageTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWrongCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sony.qa.testcases.LoginPageTest@3d121db3]" started-at="2024-08-14T21:50:40 MDT" name="tearDown" finished-at="2024-08-14T21:50:41 MDT" duration-ms="830" status="FAIL">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[Could not initialize class java.util.logging.LogRecord]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: Could not initialize class java.util.logging.LogRecord
+at java.logging/java.util.logging.Logger.log(Logger.java:1116)
+at org.openqa.selenium.support.events.EventFiringDecorator.lambda$onError$2(EventFiringDecorator.java:207)
+at java.base/java.util.Arrays$ArrayList.forEach(Arrays.java:4204)
+at org.openqa.selenium.support.events.EventFiringDecorator.onError(EventFiringDecorator.java:202)
+at org.openqa.selenium.support.decorators.DefaultDecorated.onError(DefaultDecorated.java:59)
+at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:341)
+at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$1flYP3pk.quit(Unknown Source)
+at com.sony.qa.testcases.LoginPageTest.tearDown(LoginPageTest.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:802)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:778)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sony.qa.testcases.LoginPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

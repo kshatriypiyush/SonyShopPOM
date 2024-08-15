@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 95.642 s <<< FAILURE! - in TestSuite
+loginTestWrongCredentials(com.sony.qa.testcases.LoginPageTest)  Time elapsed: 13.897 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class java.util.logging.LogRecord
+	at com.sony.qa.testcases.LoginPageTest.loginTestWrongCredentials(LoginPageTest.java:42)
+
+tearDown(com.sony.qa.testcases.LoginPageTest)  Time elapsed: 14.728 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class java.util.logging.LogRecord
+	at com.sony.qa.testcases.LoginPageTest.tearDown(LoginPageTest.java:48)
+
